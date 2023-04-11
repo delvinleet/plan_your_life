@@ -1,0 +1,25 @@
+.company_names {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    
+}
+
+.company_names-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.company_names-item img{
+    width: 50%;
+}
+
+.company_names-item:hover {
+    transition: .2s;
+    background-color: #D2E1FF;
+}

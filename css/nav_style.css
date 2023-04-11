@@ -1,0 +1,72 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    padding: 25px 110px;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+}
+
+.nav_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+}
+
+.circlelogo {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #5E81FE;
+}
+
+.nav_left-btn {
+    text-decoration: none;
+    color: #697CA6;
+}
+
+.nav_left-btn:hover {
+    color: #5E81FE;
+}
+
+.nav_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%
+}
+
+.nav_right-btn {
+    color: #B6BAC7;
+}
+
+.nav_right-btn:hover {
+    color: #5E81FE;
+    transition: .2s;
+}
+
+.nav_right-btnget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 40px;
+    background-color: #D2E1FF;
+    color: #3A79FF;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.nav_right-btnget:hover {
+    background-color: #3A79FF ;
+    color: #D2E1FF;
+    transition: .2s;
+}
+
+.silentblock {
+    height: 90px;
+}
